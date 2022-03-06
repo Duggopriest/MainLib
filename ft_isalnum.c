@@ -1,0 +1,10 @@
+#include "libft.h"
+
+int	ft_isalnum(int c)
+{
+	if (ft_isalpha(c))
+		return (1);
+	if (c >= '0' && c <= '9')
+		return (1);
+	return (0);
+}
