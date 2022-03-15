@@ -6,7 +6,7 @@
 /*   By: jgobbett <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:45:01 by jgobbett          #+#    #+#             */
-/*   Updated: 2022/03/15 13:04:59 by jgobbett         ###   ########.fr       */
+/*   Updated: 2022/03/15 13:28:01 by jgobbett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,7 @@
 # include <sys/uio.h>
 
 //-----Get Next Line-----
-
-char		*get_next_line(int fd);
-char		**ft_split(char const *s, char t);
+char		*get_next_line(int fd, int BUFFER_SIZE);
 
 // -----PrintF-----
 

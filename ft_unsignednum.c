@@ -6,11 +6,11 @@
 /*   By: jgobbett <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:44:45 by jgobbett          #+#    #+#             */
-/*   Updated: 2022/03/15 12:44:46 by jgobbett         ###   ########.fr       */
+/*   Updated: 2022/03/15 13:25:26 by jgobbett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "mainlib.h"
 
 static int	unsignednumlen(unsigned int n)
 {

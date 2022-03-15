@@ -6,11 +6,11 @@
 /*   By: jgobbett <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:44:29 by jgobbett          #+#    #+#             */
-/*   Updated: 2022/03/15 12:44:30 by jgobbett         ###   ########.fr       */
+/*   Updated: 2022/03/15 13:24:59 by jgobbett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "mainlib.h"
 
 void	ft_char(t_args *args)
 {

@@ -6,13 +6,13 @@
 /*   By: jgobbett <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/02 16:45:28 by jgobbett          #+#    #+#             */
-/*   Updated: 2022/03/03 18:52:49 by jgobbett         ###   ########.fr       */
+/*   Updated: 2022/03/15 13:27:05 by jgobbett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
-#include "get_next_line.h"
+#include "mainlib.h"
 
 int	ft_strlen_gnl(char *str)
 {
@@ -93,7 +93,7 @@ char	*assignline(char **str)
 	return (line);
 }
 
-char	*get_next_line(int fd)
+char	*get_next_line(int fd, int BUFFER_SIZE)
 {
 	char			*buff;
 	int				n;

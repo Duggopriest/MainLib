@@ -6,11 +6,11 @@
 /*   By: jgobbett <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:44:35 by jgobbett          #+#    #+#             */
-/*   Updated: 2022/03/15 12:44:37 by jgobbett         ###   ########.fr       */
+/*   Updated: 2022/03/15 13:25:14 by jgobbett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "mainlib.h"
 
 size_t	ft_strlen(const char *str)
 {

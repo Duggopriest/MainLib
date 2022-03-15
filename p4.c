@@ -6,7 +6,7 @@
 /*   By: jgobbett <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:42:34 by jgobbett          #+#    #+#             */
-/*   Updated: 2022/03/15 13:03:09 by jgobbett         ###   ########.fr       */
+/*   Updated: 2022/03/15 13:23:18 by jgobbett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	next_old = lst->next;
 	while (1)
 	{
-		if ((next_old == NULL))
+		if (next_old == NULL)
 			break ;
 		next_new->next = ft_lstnew((*f)(next_old->content));
 		if (!(next_new->next))

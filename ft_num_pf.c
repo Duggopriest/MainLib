@@ -6,16 +6,17 @@
 /*   By: jgobbett <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:44:22 by jgobbett          #+#    #+#             */
-/*   Updated: 2022/03/15 12:44:23 by jgobbett         ###   ########.fr       */
+/*   Updated: 2022/03/15 13:28:51 by jgobbett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "mainlib.h"
 
 int	numlen(int n)
 {
 	int	len;
 
+	len = 0;
 	while (n > 9)
 	{
 		n = n / 10;
