@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   p4.c                                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jgobbett <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/03/15 12:42:34 by jgobbett          #+#    #+#             */
+/*   Updated: 2022/03/15 13:03:09 by jgobbett         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "mainlib.h"
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
@@ -69,3 +81,17 @@ t_list	*ft_lstnew(void *content)
 	return (list);
 }
 
+int	ft_lstsize(t_list *lst)
+{
+	int		size;
+	t_list	*nextlst;
+
+	size = 0;
+	nextlst = lst;
+	while (nextlst != NULL)
+	{
+		nextlst = nextlst->next;
+		size++;
+	}
+	return (size);
+}
